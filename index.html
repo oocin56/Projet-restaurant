@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+  </head>
+  <body>
+    <div class="content-body">
+      <div class="header">
+        <div class="logo-container">
+          <img class="logo-header" src="Images/IMG_5464-removebg-preview.png">
+          <p class="logo-title">Le Natu</p>
+        </div>
+        <div class="burger-menu">
+          <img class="burger-logo" src="Images/hamburger-menu.svg">
+        </div>
+        <div class="header-info-container">
+          <div class="header-top">
+            <div class="social-media-container">
+              <img class="media-logo" src="Images/facebook-svgrepo-com.svg">
+              <img class="media-logo" src="Images/instagram-svgrepo-com.svg">
+              <img class="media-logo" src="Images/tripadvisor-logotype-svgrepo-com.svg">
+            </div>
+            <div class="phone"> 02 99 65 64 21 </div>
+            <div class="table-button">Réserver votre table</div>
+          </div>
+          <div class="header-bottom">
+            <div class="bottom-button">LE RESTAURANT</div>
+            <div class="bottom-button">LA CARTE</div>
+            <div class="bottom-button">ACTUALIT&Eacute;S</div>
+            <div class="bottom-button">CONTACT</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slides">
+
+        <input type="radio" name="slides" id="slide1" checked>
+        <figure>
+          <img src="Images/home.jpg">
+          <label for="slide2" class="next">
+            <img class="slider-button" src="Images/down-arrow-backup-2-svgrepo-com.png">
+          </label>
+        </figure>
+
+        <input type="radio" name="slides" id="slide2">
+        <figure>
+          <img src="Images/home2.jpg">
+          <label for="slide1" class="last">
+            <img class="slider-button" src="Images/down-arrow-backup-2-svgrepo-com.png">
+          </label>
+          <label for="slide3" class="next">
+            <img class="slider-button" src="Images/down-arrow-backup-2-svgrepo-com.png">
+          </label>
+        </figure>
+
+        <input type="radio" name="slides" id="slide3">
+        <figure>
+          <img src="Images/home3.jpg">
+          <label for="slide2" class="last">
+            <img class="slider-button" src="Images/down-arrow-backup-2-svgrepo-com.png">
+          </label>
+        </figure>
+      </div>
+
+      <div class="section-1">
+        <div class="section-1-left">
+          <div class="section-title">Votre Restaurant <h1>Le Natu</h1> à Nantes</div>
+          <div class="section-under-title">Un cadre vert, une cuisine vraie</div>
+          <div class="section-info">Notre cuisine allie simplicité et authenticité, inspirée par la nature.<br>Nous privilégions des ingrédients frais et locaux, dans un cadre chaleureux où le bois et les plantes créent une atmosphère apaisante et conviviale.</div>
+          <div class="section-button-container">
+            <button class="section-button">Le Restaurant</button>
+            <button class="section-button">La Carte</button>
+          </div>
+          <div class="section-logo">
+            <img class="logo-green" src="Images/GRA_3S.png">
+          </div>
+        </div>
+        <div class="section-1-right">
+          <div class="photo-1">
+            <img class="photo-section" src="Images/151258343_3828903800486182_3543950795787699841_n.jpg">
+          </div>
+          <div class="photo-2">
+            <img class="photo-section" src="Images/150268814_3828903900486172_9209177928097125732_n.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="section-2">
+        <div class="section-1-left">
+          <div class="citation">“ Chez Le Natu, chaque plat est une ode à la simplicité naturelle, où authenticité et saveurs se rencontrent pour un voyage culinaire unique ”</div>
+          <div class="signature">— Chef Laurent Dupont -</div>
+        </div>
+        <div class="section-1-right">
+          <div class="photo-3">
+            <img class="photo-section" src="Images/150586635_3828903637152865_4392141136106008478_n.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="section-3">
+        <div class="grid">
+          <img class="photo-grid" src="Images/photo1.jpg">
+        </div>
+        <div class="grid">
+          <img class="photo-grid" src="Images/photo2.jpg">
+        </div>
+        <div class="grid last-grid">
+          <img class="photo-grid" src="Images/photo3.jpg">
+        </div>
+      </div>
+
+      <div class="section-actu-container">
+        <h2>Dernières actualités</h2>
+        <h3>du Restaurant Le Natu</h3>
+        <div class="article-container">
+        <div class="article-date">Jeudi 12 juillet 2024</div>
+        <div class="article-title">Nouvelle carte pour la saison</div>
+        <div class="article-preview">Le Natu est fier de dévoiler sa toute nouvelle carte,<br>spécialement élaborée pour célébrer les saveurs de la saison. Notre chef Laurent Dupont a revisité les classiques du restaurant, tout en introduisant de nouvelles créations...</div>
+        <div class="suite-button">Lire la suite ></div>
+        </div>
+        <div class="button-actu-container">
+          <button class="section-button">Toutes les actualités</button>
+        </div>
+      </div>
+
+
+     
+    </div> 
+      <footer>
+        <div class="footer-grid">
+          <div class="footer-grid-title">Restaurant Le Natu</div>
+          <div class="footer-grid-info">15, Rue du Guyon - 44100 NANTES</div>
+          <div class="phone-footer">02 99 65 64 21</div>
+          <button class="table-button">Nous Contacter</button>
+          <div class="social-media-container media-footer">
+            <img class="media-logo-footer" src="Images/facebook-svgrepo-com.svg">
+            <img class="media-logo-footer" src="Images/instagram-svgrepo-com.svg">
+            <img class="media-logo-footer" src="Images/tripadvisor-logotype-svgrepo-com.svg">
+          </div>
+        </div>
+        <div class="footer-grid">
+          <div class="footer-grid-title">Horaires d'ouverture</div>
+          <div class="footer-grid-info">Nous vous acceuillons midi et soir, tous les jours, sauf le lundi midi et mardi.</div>
+          <div class="footer-grid-info">Nous ne proposons pas de privatisation du restaurant.</div>
+          <div class="section-logo-footer">
+            <img class="logo-green-footer" src="Images/GRA_3S.png">
+          </div>
+        </div>
+        <div class="footer-grid last-footer">
+          <div class="footer-grid-title">Newsletter</div>
+          <div class="footer-grid-info">Inscrivez-vous et recevez par mail les dernières informations du restaurant Le Natu.</div>
+          <button class="section-button footer-button">S'inscrire</button>
+        </div>
+      </footer>
+      <div class="footer-2">
+        <div class="footer-left">
+          <div class="footer-link">Acceuil</div>
+          <div class="footer-link">Mentions légales</div>
+        </div>
+        <div class="footer-right">2024 Le Natu. Tous droits réservés.</div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+.header {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-header{
+  height: 100%;
+  object-fit: contain;
+}
+.logo-title{
+  font-family: Dancing script;
+  font-size: 50px;
+}
+
+.header-info-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.table-button {
+  background-color: #58932b;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  border: none;
+}
+
+.table-button:hover {
+  background-color: #43711f;
+  box-shadow: 4px 4px 10px rgba(150, 150, 150, 0.282)
+}
+.table-button:active {
+  box-shadow: 4px 4px 10px rgba(252, 252, 252, 0.282)
+}
+
+.phone {
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  margin-right: 20px;
+}
+
+.social-media-container{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+  height: 35px;
+}
+
+.media-logo {
+  width: 30px;
+  cursor: pointer;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.media-logo:hover {
+  filter: brightness(0.7);
+  padding: 5px;
+  
+  border: solid 1px #58932b;
+  border-color: #58932b;
+  border-radius: 20px;
+}
+
+.header-bottom {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-button {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 50px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.bottom-button:hover {
+  color:  #58932b;
+  border-bottom: solid 1px rgba(105, 72, 32, 0.211);
+  
+}
